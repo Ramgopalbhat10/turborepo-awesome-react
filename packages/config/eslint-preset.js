@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ["next", "prettier"],
+  extends: [
+    "next",
+    "prettier",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+  ],
   settings: {
     next: {
       rootDir: ["apps/*/", "packages/*/"],

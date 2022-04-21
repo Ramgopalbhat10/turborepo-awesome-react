@@ -5,7 +5,8 @@
   "license": "MIT",
   "files": [
     "eslint-preset.js",
-    "eslint-preset-nest.js"
+    "eslint-preset-nest.js",
+    "eslint-preset-react.js"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
